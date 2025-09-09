@@ -17,10 +17,12 @@ function windowResized(){
 function generateParticle(txt){
   background(255);
   
+  const fs = width*0.15
+  gap = fs*0.05;
   textFont(myFont);
-  textSize(110);
+  textSize(fs);
   textAlign(CENTER,CENTER);
-  textLeading(90); // 행간
+  textLeading(fs*0.8); // 행간
   text(txt,width/2,height/2);
   
   // 세로방향으로 가로줄을 일정 간격으로 훑는 반봑문
