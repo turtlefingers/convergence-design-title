@@ -7,6 +7,7 @@ async function setup() {
   
   createCanvas(windowWidth, windowHeight);
   generateParticle("Convergence\nDesign 2");
+  clear();
 }
 
 function windowResized(){
